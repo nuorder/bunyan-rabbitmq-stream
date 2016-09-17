@@ -1,0 +1,40 @@
+{
+  "name": "bunyan-rabbitmq-stream",
+  "version": "0.0.1",
+  "description": "RabbitMQ WriteStream for Bunyan",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing BLUEBIRD_DEBUG=1 DEBUG=bunyan-rabbitmq-stream*,broker-emitter* ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuorder/bunyan-rabbitmq-stream.git"
+  },
+  "keywords": [
+    "bunyan",
+    "rabbitmq"
+  ],
+  "author": "Chen Liang <code@chen.technology>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuorder/bunyan-rabbitmq-stream/issues"
+  },
+  "homepage": "https://github.com/nuorder/bunyan-rabbitmq-stream#readme",
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.1",
+    "chai": "^3.5.0",
+    "chai-things": "^0.2.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "broker-emitter": "github:capitalgene/broker-emitter",
+    "debug": "^2.2.0",
+    "lodash": "^4.15.0"
+  }
+}
