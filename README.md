@@ -4,7 +4,7 @@ RabbitMQ WriteStream for Bunyan
 ## Docs
 
 ```js
-const RabbitMQStream = require('bunyan-rabbitmq-stream');
+const RabbitMQStream = require('bunyan-rabbitmq-stream').stream;
 
 const logStream = new RabbitmqLogStream(options);
 const bunyan = require('bunyan');
@@ -13,6 +13,9 @@ const log = bunyan.createLogger({
   name: 'logger',
   stream: logStream,
 });
+
+logStream.connect()
+  .then(() => console.log('rabbitmq log stream connected'));
 
 ```
 
