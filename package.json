@@ -1,6 +1,6 @@
 {
   "name": "bunyan-rabbitmq-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RabbitMQ WriteStream for Bunyan",
   "main": "lib/index.js",
   "scripts": {
