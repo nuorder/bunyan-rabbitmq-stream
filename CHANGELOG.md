@@ -1,5 +1,8 @@
 # Change logs
 
+## v0.0.4 (2016-10-02)
+* **rabbitmq-stream**: fixed `injectMarathonEnv(process.env)`
+
 ## v0.0.3 (2016-10-02)
 * **rabbitmq-stream**: use `injectMarathonEnv(entry)`
 
