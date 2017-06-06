@@ -1,6 +1,6 @@
 {
   "name": "bunyan-rabbitmq-stream",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "RabbitMQ WriteStream for Bunyan",
   "main": "lib/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "broker-emitter": "^0.0.4",
+    "broker-emitter": "^0.1.4",
     "debug": "^2.2.0",
     "lodash": "^4.15.0"
   }

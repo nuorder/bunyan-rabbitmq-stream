@@ -1,5 +1,8 @@
 # Change logs
 
+## v0.0.5 (2017-06-06)
+* deps: "broker-emitter@^0.1.4"
+
 ## v0.0.4 (2016-10-02)
 * **rabbitmq-stream**: fixed `injectMarathonEnv(process.env)`
 
